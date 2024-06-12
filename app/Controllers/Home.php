@@ -48,6 +48,7 @@ class Home extends BaseController
             $c_Email = "baekguni@naver.com";
             $c_pw = "100100";
             $c_nic = "baekgun nic";
+            
             */
 
             $model->adduser($c_name, $c_Email, $c_id, $c_pw, $c_nic);
