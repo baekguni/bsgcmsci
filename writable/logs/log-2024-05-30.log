@@ -1,0 +1,195 @@
+INFO - 2024-05-30 00:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 02:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 02:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 02:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 02:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 02:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 02:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-30 04:08:36 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(182): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('signup', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-30 04:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 04:10:53 --> CSRF token verified.
+CRITICAL - 2024-05-30 04:10:53 --> ErrorException: Undefined property: App\Controllers\Home::$input
+in APPPATH\Controllers\Home.php on line 35.
+ 1 APPPATH\Controllers\Home.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'C:\\xampp\\htdocs\\ci\\app\\Controllers\\Home.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signup()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-30 04:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 04:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 04:34:54 --> CSRF token verified.
+CRITICAL - 2024-05-30 04:34:54 --> ErrorException: Undefined property: App\Controllers\Home::$input
+in APPPATH\Controllers\Home.php on line 35.
+ 1 APPPATH\Controllers\Home.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'C:\\xampp\\htdocs\\ci\\app\\Controllers\\Home.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signup()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-30 04:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 04:38:11 --> CSRF token verified.
+CRITICAL - 2024-05-30 04:38:11 --> Error: Call to undefined function App\Controllers\password()
+in APPPATH\Controllers\Home.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signup()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-30 04:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 04:49:55 --> CSRF token verified.
+CRITICAL - 2024-05-30 04:49:55 --> Error: Call to undefined function App\Controllers\password()
+in APPPATH\Controllers\Home.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signup()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-30 04:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 04:50:18 --> CSRF token verified.
+CRITICAL - 2024-05-30 04:50:18 --> ErrorException: Undefined property: App\Controllers\Home::$SignupModel
+in APPPATH\Controllers\Home.php on line 48.
+ 1 APPPATH\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$SignupModel', 'C:\\xampp\\htdocs\\ci\\app\\Controllers\\Home.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signup()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-30 06:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 06:36:36 --> CSRF token verified.
+INFO - 2024-05-30 06:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 06:37:55 --> CSRF token verified.
+CRITICAL - 2024-05-30 06:37:55 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "/login" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/login')
+ 2 SYSTEMPATH\Common.php(864): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Home.php(49): redirect('/login')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signup()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-30 06:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 06:38:12 --> CSRF token verified.
+INFO - 2024-05-30 06:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 06:38:59 --> CSRF token verified.
+INFO - 2024-05-30 06:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 06:39:46 --> CSRF token verified.
+CRITICAL - 2024-05-30 06:39:46 --> TypeError: App\Controllers\Home::signup(): Return value must be of type string, none returned
+in APPPATH\Controllers\Home.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signup()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-30 06:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 06:40:48 --> CSRF token verified.
+INFO - 2024-05-30 06:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 06:44:08 --> CSRF token verified.
+CRITICAL - 2024-05-30 06:44:08 --> ErrorException: Undefined property: App\Controllers\Home::$SignupModel
+in APPPATH\Controllers\Home.php on line 50.
+ 1 APPPATH\Controllers\Home.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$SignupModel', 'C:\\xampp\\htdocs\\ci\\app\\Controllers\\Home.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signup()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-30 06:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 06:46:44 --> CSRF token verified.
+CRITICAL - 2024-05-30 06:46:44 --> Error: Call to a member function adduser() on null
+in APPPATH\Controllers\Home.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signup()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-30 06:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 06:51:50 --> CSRF token verified.
+CRITICAL - 2024-05-30 06:51:50 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::queery()
+in APPPATH\Models\SignupModel.php on line 15.
+ 1 APPPATH\Controllers\Home.php(52): App\Models\SignupModel->adduser('baekgun', 'baekguni@naver.com', 'baekguni', '100100', 'baekgun nic')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signup()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-30 07:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 07:07:02 --> CSRF token verified.
+CRITICAL - 2024-05-30 07:07:02 --> Error: Call to a member function queery() on null
+in APPPATH\Models\SignupModel.php on line 18.
+ 1 APPPATH\Controllers\Home.php(52): App\Models\SignupModel->adduser('baekgun', 'baekguni@naver.com', 'baekguni', '100100', 'baekgun nic')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signup()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-30 07:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 07:07:30 --> CSRF token verified.
+CRITICAL - 2024-05-30 07:07:30 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::queery()
+in APPPATH\Models\SignupModel.php on line 18.
+ 1 APPPATH\Controllers\Home.php(52): App\Models\SignupModel->adduser('baekgun', 'baekguni@naver.com', 'baekguni', '100100', 'baekgun nic')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signup()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-30 07:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 07:08:32 --> CSRF token verified.
+CRITICAL - 2024-05-30 07:08:32 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::queery()
+in APPPATH\Models\SignupModel.php on line 18.
+ 1 APPPATH\Controllers\Home.php(52): App\Models\SignupModel->adduser('baekgun', 'baekguni@naver.com', 'baekguni', '100100', 'baekgun nic')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signup()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-30 07:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 07:08:55 --> CSRF token verified.
+INFO - 2024-05-30 07:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 07:17:59 --> CSRF token verified.
+CRITICAL - 2024-05-30 07:17:59 --> ErrorException: Undefined property: App\Controllers\Home::$input
+in APPPATH\Controllers\Home.php on line 39.
+ 1 APPPATH\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$input', 'C:\\xampp\\htdocs\\ci\\app\\Controllers\\Home.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signup()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-30 07:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 07:27:55 --> CSRF token verified.
+ERROR - 2024-05-30 07:27:55 --> mysqli_sql_exception: Duplicate entry 'baekgun' for key 'PRIMARY' in C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(306): mysqli->query('insert into crm...', 0)
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('insert into crm...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('insert into crm...')
+#3 C:\xampp\htdocs\ci\app\Models\SignupModel.php(18): CodeIgniter\Database\BaseConnection->query('insert into crm...')
+#4 C:\xampp\htdocs\ci\app\Controllers\Home.php(54): App\Models\SignupModel->adduser('baekgun', 'baekguni@naver....', 'cardoc', '100100', 'baekgun nic')
+#5 C:\xampp\htdocs\ci\system\CodeIgniter.php(941): App\Controllers\Home->signup()
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-30 07:27:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'baekgun' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\SignupModel.php(18): CodeIgniter\Database\BaseConnection->query('insert into crm_user(cid,cemail,cname,cpasswd,cnic) values(\'baekgun\', \'baekguni@naver.com\', \'cardoc\', Password(\'100100\'), \'baekgun nic\')')
+ 2 APPPATH\Controllers\Home.php(54): App\Models\SignupModel->adduser('baekgun', 'baekguni@naver.com', 'cardoc', '100100', 'baekgun nic')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signup()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 07:27:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'baekgun' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('insert into crm_user(cid,cemail,cname,cpasswd,cnic) values(\'baekgun\', \'baekguni@naver.com\', \'cardoc\', Password(\'100100\'), \'baekgun nic\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('insert into crm_user(cid,cemail,cname,cpasswd,cnic) values(\'baekgun\', \'baekguni@naver.com\', \'cardoc\', Password(\'100100\'), \'baekgun nic\')')
+ 3 APPPATH\Models\SignupModel.php(18): CodeIgniter\Database\BaseConnection->query('insert into crm_user(cid,cemail,cname,cpasswd,cnic) values(\'baekgun\', \'baekguni@naver.com\', \'cardoc\', Password(\'100100\'), \'baekgun nic\')')
+ 4 APPPATH\Controllers\Home.php(54): App\Models\SignupModel->adduser('baekgun', 'baekguni@naver.com', 'cardoc', '100100', 'baekgun nic')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signup()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 07:27:55 --> [Caused by] mysqli_sql_exception: Duplicate entry 'baekgun' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('insert into crm_user(cid,cemail,cname,cpasswd,cnic) values(\'baekgun\', \'baekguni@naver.com\', \'cardoc\', Password(\'100100\'), \'baekgun nic\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('insert into crm_user(cid,cemail,cname,cpasswd,cnic) values(\'baekgun\', \'baekguni@naver.com\', \'cardoc\', Password(\'100100\'), \'baekgun nic\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('insert into crm_user(cid,cemail,cname,cpasswd,cnic) values(\'baekgun\', \'baekguni@naver.com\', \'cardoc\', Password(\'100100\'), \'baekgun nic\')')
+ 4 APPPATH\Models\SignupModel.php(18): CodeIgniter\Database\BaseConnection->query('insert into crm_user(cid,cemail,cname,cpasswd,cnic) values(\'baekgun\', \'baekguni@naver.com\', \'cardoc\', Password(\'100100\'), \'baekgun nic\')')
+ 5 APPPATH\Controllers\Home.php(54): App\Models\SignupModel->adduser('baekgun', 'baekguni@naver.com', 'cardoc', '100100', 'baekgun nic')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signup()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-30 07:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 07:52:56 --> CSRF token verified.

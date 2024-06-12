@@ -1,0 +1,166 @@
+INFO - 2024-06-05 06:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:39:06 --> CSRF token verified.
+CRITICAL - 2024-06-05 06:39:06 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::row_array()
+in APPPATH\Controllers\Home.php on line 112.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 06:39:12 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(182): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('signupchk', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 06:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 06:39:23 --> CSRF token verified.
+CRITICAL - 2024-06-05 06:39:23 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::row_array()
+in APPPATH\Controllers\Home.php on line 112.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 06:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 06:42:40 --> TypeError: App\Controllers\Home::signupchk(): Return value must be of type string, CodeIgniter\Database\MySQLi\Result returned
+in APPPATH\Controllers\Home.php on line 132.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 06:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 06:48:52 --> TypeError: App\Controllers\Home::signupchk(): Return value must be of type string, CodeIgniter\Database\MySQLi\Result returned
+in APPPATH\Controllers\Home.php on line 132.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 07:14:03 --> ErrorException: Undefined variable $results
+in APPPATH\Controllers\Home.php on line 131.
+ 1 APPPATH\Controllers\Home.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'C:\\xampp\\htdocs\\ci\\app\\Controllers\\Home.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 07:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 07:17:34 --> CSRF token verified.
+CRITICAL - 2024-06-05 07:17:34 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::row_array()
+in APPPATH\Controllers\Home.php on line 112.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 07:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 07:18:22 --> CSRF token verified.
+INFO - 2024-06-05 07:18:25 --> CSRF token verified.
+INFO - 2024-06-05 07:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 07:19:54 --> CSRF token verified.
+CRITICAL - 2024-06-05 07:19:54 --> ErrorException: Undefined variable $results
+in APPPATH\Controllers\Home.php on line 113.
+ 1 APPPATH\Controllers\Home.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'C:\\xampp\\htdocs\\ci\\app\\Controllers\\Home.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 07:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 07:20:25 --> CSRF token verified.
+INFO - 2024-06-05 07:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 07:27:46 --> CSRF token verified.
+INFO - 2024-06-05 07:27:59 --> CSRF token verified.
+INFO - 2024-06-05 07:53:34 --> CSRF token verified.
+INFO - 2024-06-05 07:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 07:53:46 --> CSRF token verified.
+INFO - 2024-06-05 07:53:53 --> CSRF token verified.
+INFO - 2024-06-05 07:56:25 --> CSRF token verified.
+INFO - 2024-06-05 07:56:31 --> CSRF token verified.
+INFO - 2024-06-05 07:56:36 --> CSRF token verified.
+INFO - 2024-06-05 08:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 08:18:37 --> CSRF token verified.
+INFO - 2024-06-05 08:18:43 --> CSRF token verified.
+INFO - 2024-06-05 09:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 09:03:51 --> CSRF token verified.
+INFO - 2024-06-05 09:04:20 --> CSRF token verified.
+INFO - 2024-06-05 09:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 09:10:18 --> CSRF token verified.
+INFO - 2024-06-05 09:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 09:16:32 --> CSRF token verified.
+INFO - 2024-06-05 09:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 09:18:28 --> CSRF token verified.
+INFO - 2024-06-05 09:18:30 --> CSRF token verified.
+INFO - 2024-06-05 09:18:32 --> CSRF token verified.
+INFO - 2024-06-05 09:18:44 --> CSRF token verified.
+INFO - 2024-06-05 09:18:49 --> CSRF token verified.
+INFO - 2024-06-05 09:20:03 --> CSRF token verified.
+INFO - 2024-06-05 09:20:09 --> CSRF token verified.
+INFO - 2024-06-05 09:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 09:20:33 --> CSRF token verified.
+INFO - 2024-06-05 09:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 09:23:33 --> CSRF token verified.
+INFO - 2024-06-05 09:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 09:28:15 --> CSRF token verified.
+INFO - 2024-06-05 09:28:59 --> CSRF token verified.
+INFO - 2024-06-05 09:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 09:31:59 --> CSRF token verified.
+CRITICAL - 2024-06-05 09:31:59 --> ErrorException: Undefined variable $c_id
+in APPPATH\Controllers\Home.php on line 80.
+ 1 APPPATH\Controllers\Home.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $c_id', 'C:\\xampp\\htdocs\\ci\\app\\Controllers\\Home.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:32:04 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(182): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('signupchk', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 09:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 09:32:27 --> CSRF token verified.
+CRITICAL - 2024-06-05 09:32:27 --> ErrorException: Undefined variable $c_id
+in APPPATH\Controllers\Home.php on line 80.
+ 1 APPPATH\Controllers\Home.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $c_id', 'C:\\xampp\\htdocs\\ci\\app\\Controllers\\Home.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:32:30 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(182): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('signupchk', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 09:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 09:33:36 --> CSRF token verified.
+INFO - 2024-06-05 09:33:42 --> CSRF token verified.
+INFO - 2024-06-05 09:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 09:35:00 --> CSRF token verified.
+INFO - 2024-06-05 09:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 09:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 09:42:34 --> CSRF token verified.
+INFO - 2024-06-05 09:42:41 --> CSRF token verified.
+INFO - 2024-06-05 09:42:47 --> CSRF token verified.
+INFO - 2024-06-05 09:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 09:43:12 --> CSRF token verified.
+INFO - 2024-06-05 09:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 09:45:26 --> CSRF token verified.
+INFO - 2024-06-05 09:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 09:46:21 --> CSRF token verified.
+INFO - 2024-06-05 09:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 09:46:51 --> CSRF token verified.
+INFO - 2024-06-05 09:47:53 --> CSRF token verified.
+INFO - 2024-06-05 09:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 09:48:00 --> CSRF token verified.
+INFO - 2024-06-05 09:48:17 --> CSRF token verified.
+INFO - 2024-06-05 09:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 09:55:35 --> CSRF token verified.
+INFO - 2024-06-05 10:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 10:03:17 --> CSRF token verified.
+INFO - 2024-06-05 10:03:25 --> CSRF token verified.
+INFO - 2024-06-05 10:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 10:04:22 --> CSRF token verified.
+INFO - 2024-06-05 10:04:29 --> CSRF token verified.

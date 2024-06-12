@@ -1,0 +1,325 @@
+INFO - 2024-06-03 02:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-03 02:50:52 --> TypeError: json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH\Views\ajax\signupchk_json.php on line 14.
+ 1 APPPATH\Views\ajax\signupchk_json.php(14): json_decode([...], false)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\ajax\\signupchk_json.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ajax/signupchk_json', [], true)
+ 5 APPPATH\Controllers\Home.php(125): view('ajax/signupchk_json', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-03 03:02:28 --> ErrorException: Undefined variable $json_object
+in APPPATH\Views\ajax\signupchk_json.php on line 19.
+ 1 APPPATH\Views\ajax\signupchk_json.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $json_object', 'C:\\xampp\\htdocs\\ci\\app\\Views\\ajax\\signupchk_json.php', 19)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\ajax\\signupchk_json.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ajax/signupchk_json', [], true)
+ 5 APPPATH\Controllers\Home.php(125): view('ajax/signupchk_json', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-03 03:06:23 --> ErrorException: Undefined property: CodeIgniter\View\View::$input
+in APPPATH\Views\ajax\signupchk_json.php on line 11.
+ 1 APPPATH\Views\ajax\signupchk_json.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$input', 'C:\\xampp\\htdocs\\ci\\app\\Views\\ajax\\signupchk_json.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\ajax\\signupchk_json.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ajax/signupchk_json', [], true)
+ 5 APPPATH\Controllers\Home.php(125): view('ajax/signupchk_json', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-03 03:08:08 --> CSRF token verified.
+CRITICAL - 2024-06-03 03:08:08 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ci\app\Controllers\Home.php on line 127
+in SYSTEMPATH\Common.php on line 1166.
+ 1 APPPATH\Controllers\Home.php(127): view('ajax/signupchk_json', '{"token":"b0c39b2842d4a0abcf3404f38ab49bed","success":1,"user":{"cnt":1}}')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-03 03:11:00 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ci\app\Controllers\Home.php on line 127
+in SYSTEMPATH\Common.php on line 1166.
+ 1 APPPATH\Controllers\Home.php(127): view('ajax/signupchk_json', '{"token":"0d61680c3240d7e0d8b0202cc52ef9b2","success":0,"error":"The cid field is required."}')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-03 03:11:03 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ci\app\Controllers\Home.php on line 127
+in SYSTEMPATH\Common.php on line 1166.
+ 1 APPPATH\Controllers\Home.php(127): view('ajax/signupchk_json', '{"token":"0d61680c3240d7e0d8b0202cc52ef9b2","success":0,"error":"The cid field is required."}')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-03 03:11:06 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ci\app\Controllers\Home.php on line 127
+in SYSTEMPATH\Common.php on line 1166.
+ 1 APPPATH\Controllers\Home.php(127): view('ajax/signupchk_json', '{"token":"0d61680c3240d7e0d8b0202cc52ef9b2","success":0,"error":"The cid field is required."}')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-03 03:11:29 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ci\app\Controllers\Home.php on line 127
+in SYSTEMPATH\Common.php on line 1166.
+ 1 APPPATH\Controllers\Home.php(127): view('ajax/signupchk_json', '{"token":"0d61680c3240d7e0d8b0202cc52ef9b2","success":0,"error":"The cid field is required."}')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-03 03:11:53 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ci\app\Controllers\Home.php on line 127
+in SYSTEMPATH\Common.php on line 1166.
+ 1 APPPATH\Controllers\Home.php(127): view('ajax/signupchk_json', '{"token":"0d61680c3240d7e0d8b0202cc52ef9b2","success":0,"error":"The cid field is required."}')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-03 03:12:23 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ci\app\Controllers\Home.php on line 127
+in SYSTEMPATH\Common.php on line 1166.
+ 1 APPPATH\Controllers\Home.php(127): view('ajax/signupchk_json', '{"token":"0d61680c3240d7e0d8b0202cc52ef9b2","success":0,"error":"The cid field is required."}')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-03 03:13:08 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ci\app\Controllers\Home.php on line 127
+in SYSTEMPATH\Common.php on line 1166.
+ 1 APPPATH\Controllers\Home.php(127): view('ajax/signupchk_json', '{"token":"0d61680c3240d7e0d8b0202cc52ef9b2","success":0,"error":"The cid field is required."}')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-03 03:20:33 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ci\app\Controllers\Home.php on line 127
+in SYSTEMPATH\Common.php on line 1166.
+ 1 APPPATH\Controllers\Home.php(127): view('ajax/signupchk_json', '{"token":"0d61680c3240d7e0d8b0202cc52ef9b2","success":0,"error":"The cid field is required."}')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-03 03:22:27 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ci\app\Controllers\Home.php on line 127
+in SYSTEMPATH\Common.php on line 1166.
+ 1 APPPATH\Controllers\Home.php(127): view('ajax/signupchk_json', '{"token":"0d61680c3240d7e0d8b0202cc52ef9b2","success":0,"error":"The cid field is required."}')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-03 03:22:29 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\ci\app\Controllers\Home.php on line 127
+in SYSTEMPATH\Common.php on line 1166.
+ 1 APPPATH\Controllers\Home.php(127): view('ajax/signupchk_json', '{"token":"0d61680c3240d7e0d8b0202cc52ef9b2","success":0,"error":"The cid field is required."}')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-03 03:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 03:23:38 --> CSRF token verified.
+CRITICAL - 2024-06-03 03:25:06 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(182): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('signupchk', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-03 03:28:29 --> ErrorException: Undefined property: CodeIgniter\View\View::$input
+in APPPATH\Views\ajax\signupchk_json.php on line 11.
+ 1 APPPATH\Views\ajax\signupchk_json.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$input', 'C:\\xampp\\htdocs\\ci\\app\\Views\\ajax\\signupchk_json.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\ajax\\signupchk_json.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ajax/signupchk_json', [], true)
+ 5 APPPATH\Controllers\Home.php(127): view('ajax/signupchk_json', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-03 03:45:01 --> TypeError: App\Controllers\Home::signupchk(): Return value must be of type string, none returned
+in APPPATH\Controllers\Home.php on line 131.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-03 03:45:06 --> TypeError: App\Controllers\Home::signupchk(): Return value must be of type string, none returned
+in APPPATH\Controllers\Home.php on line 131.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-03 03:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 03:45:31 --> CSRF token verified.
+CRITICAL - 2024-06-03 03:45:31 --> TypeError: App\Controllers\Home::signupchk(): Return value must be of type string, none returned
+in APPPATH\Controllers\Home.php on line 131.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-03 03:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 03:46:13 --> CSRF token verified.
+CRITICAL - 2024-06-03 03:46:13 --> TypeError: App\Controllers\Home::signupchk(): Return value must be of type string, none returned
+in APPPATH\Controllers\Home.php on line 131.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-03 03:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 03:46:21 --> CSRF token verified.
+CRITICAL - 2024-06-03 03:46:21 --> TypeError: App\Controllers\Home::signupchk(): Return value must be of type string, none returned
+in APPPATH\Controllers\Home.php on line 131.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-03 03:47:47 --> TypeError: App\Controllers\Home::signupchk(): Return value must be of type string, none returned
+in APPPATH\Controllers\Home.php on line 131.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-03 03:48:45 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(182): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('signupchk', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-03 03:48:51 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(182): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('signupchk', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-03 03:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 03:49:01 --> CSRF token verified.
+CRITICAL - 2024-06-03 03:49:08 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(182): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('signupchk', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-03 03:49:12 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(182): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('signupchk', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-03 03:57:42 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(182): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('signupchk', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-03 03:57:48 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(182): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('signupchk', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-03 03:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 03:57:57 --> CSRF token verified.
+INFO - 2024-06-03 04:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 04:54:11 --> CSRF token verified.
+CRITICAL - 2024-06-03 04:54:17 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(182): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('signupchk', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-03 04:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 04:59:49 --> CSRF token verified.
+INFO - 2024-06-03 04:59:54 --> CSRF token verified.
+INFO - 2024-06-03 04:59:56 --> CSRF token verified.
+INFO - 2024-06-03 05:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 05:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 13:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 13:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 13:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 13:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 13:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 13:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 13:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 13:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 13:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 13:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 13:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 13:28:05 --> CSRF token verified.
+INFO - 2024-06-03 13:28:08 --> CSRF token verified.
+INFO - 2024-06-03 13:28:16 --> CSRF token verified.
+INFO - 2024-06-03 13:28:20 --> CSRF token verified.
+INFO - 2024-06-03 13:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 14:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 14:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 14:06:21 --> CSRF token verified.
+INFO - 2024-06-03 14:06:26 --> CSRF token verified.
+INFO - 2024-06-03 14:25:55 --> CSRF token verified.
+CRITICAL - 2024-06-03 14:25:56 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::row_array()
+in APPPATH\Controllers\Home.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-03 14:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 14:27:24 --> CSRF token verified.
+CRITICAL - 2024-06-03 14:27:24 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::row_array()
+in APPPATH\Controllers\Home.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-03 14:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 14:29:54 --> CSRF token verified.
+CRITICAL - 2024-06-03 14:29:54 --> ErrorException: Undefined variable $dbdata
+in APPPATH\Controllers\Home.php on line 111.
+ 1 APPPATH\Controllers\Home.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dbdata', 'C:\\xampp\\htdocs\\ci\\app\\Controllers\\Home.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-03 14:30:22 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(182): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('signupchk', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-03 14:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 14:30:29 --> CSRF token verified.
+INFO - 2024-06-03 14:30:54 --> CSRF token verified.
+INFO - 2024-06-03 14:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 14:31:00 --> CSRF token verified.
+INFO - 2024-06-03 14:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 14:32:11 --> CSRF token verified.
+CRITICAL - 2024-06-03 14:32:11 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::row_array()
+in APPPATH\Controllers\Home.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-03 14:36:03 --> ParseError: syntax error, unexpected token "="
+in APPPATH\Controllers\Home.php on line 82.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-03 14:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-03 14:36:20 --> CSRF token verified.
+CRITICAL - 2024-06-03 14:36:20 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::row_array()
+in APPPATH\Controllers\Home.php on line 112.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->signupchk()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,9 @@
+CRITICAL - 2024-05-10 07:55:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "news/view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news/view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('news/view', [], true)
+ 3 APPPATH\Controllers\News.php(34): view('news/view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->view('elvis-sighted')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
