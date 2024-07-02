@@ -25,5 +25,8 @@ $routes->get('signup', 'Home::signup');
 $routes->post('signup','Home::signup');
 $routes->get('login', 'Home::login');
 $routes->match(['get','post'],'signupchk','Home::signupchk');
-$routes->match(['get','post'],'signup_aj','Home::signup_ajax');
+$routes->match(['get','post'],'signupaj','Home::signup_ajax');
 
+$routes->get('formv', 'test::index');
+$routes->post('formv', 'test::index');
+$routes->get('popuptest', 'test::popup');

@@ -1,0 +1,4 @@
+INFO - 2024-06-29 05:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-29 05:39:00 --> ErrorException: Cannot redeclare App\Controllers\test::index()
+in APPPATH\Controllers\test.php on line 37.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
